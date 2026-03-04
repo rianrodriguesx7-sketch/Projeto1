@@ -237,13 +237,13 @@ li {
   border-radius: 10px;
   border: 1px solid #34d399;
 }
-.contato-item strong {
+.contatos-item strong {
   display: block;
   color: #34d399;
   margin-bottom: 5px;
 }
 
-.contato-item span {
+.contatos-item span {
   color: #9ca3af;
   font-size: 0.7em;
 }
@@ -255,7 +255,7 @@ li {
   gap: 20px;
 }
 
-@media (max-widht: 768px) {
+@media (max-width: 768px) {
   .redes-sociais {
     flex-direction: column;
   }
