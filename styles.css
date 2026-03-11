@@ -169,7 +169,7 @@ li {
   text-align: center;
 }
 
-#habiidades p {
+#habilidades p {
   color: #9ca3af;
   margin: 20px;
 }
@@ -280,23 +280,23 @@ li {
   color: #9ca3af;
 }
 
-@media (max-widht: 768px ) {
+@media (max-width: 768px) {
 
   .contatos-lista {
     flex-direction: column;
   }
 
   .contatos-item {
-    widht: 90%;
+    width: 90%;
   }
 
   .redes-sociais a {
 display: block;
 margin: 10px auto;
-widht: 200px;
+width: 200px;
   }
   #contato {
     padding: 30px 15px;
   }
-  
+
 }
