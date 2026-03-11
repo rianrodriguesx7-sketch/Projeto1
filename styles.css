@@ -279,3 +279,24 @@ li {
   background: #020617;
   color: #9ca3af;
 }
+
+@media (max-widht: 768px ) {
+
+  .contatos-lista {
+    flex-direction: column;
+  }
+
+  .contatos-item {
+    widht: 90%;
+  }
+
+  .redes-sociais a {
+display: block;
+margin: 10px auto;
+widht: 200px;
+  }
+  #contato {
+    padding: 30px 15px;
+  }
+  
+}
