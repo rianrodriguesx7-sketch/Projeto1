@@ -252,13 +252,7 @@ li {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  gap: 20px;
-}
-
-@media (max-width: 768px) {
-  .redes-sociais {
-    flex-direction: column;
-  }
+  gap: 20px
 }
 
 .redes-sociais a {
@@ -281,6 +275,38 @@ li {
 }
 
 @media (max-width: 768px) {
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-container h2 {
+    font-size: 2em;
+  }
+
+  #sobre {
+  min-height: auto;
+  }
+
+  .sobre-conteudo {
+    align-items: center;
+    text-align: center;
+  }
+
+  .projetos-container {
+    flex-direction: column;
+  }
+
+  .habilidades-lista {
+    justify-content: center;
+  }
 
   .contatos-lista {
     flex-direction: column;
